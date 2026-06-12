@@ -4,4 +4,4 @@
 *.html
 .pkg-test.*
 !assets/
-!assets/*.png
+!assets/*.webp

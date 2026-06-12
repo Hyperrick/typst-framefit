@@ -14,23 +14,23 @@ cap the allowed growth, or keep text within a maximum number of lines.
 
 Finite maximum:
 
-![Framefit example with finite max percentage](assets/grows-to-max.png)
+![Framefit example with finite max percentage](assets/grows-to-max.webp)
 
 No configured maximum:
 
-![Framefit example with max none](assets/no-maximum.png)
+![Framefit example with max none](assets/no-maximum.webp)
 
 Shrink to minimum:
 
-![Framefit example shrinking text to the minimum size](assets/shrinks-to-min.png)
+![Framefit example shrinking text to the minimum size](assets/shrinks-to-min.webp)
 
 Maximum lines:
 
-![Framefit example limiting fitted text to three lines](assets/max-lines.png)
+![Framefit example limiting fitted text to three lines](assets/max-lines.webp)
 
 Font and line spacing sensitivity:
 
-![Framefit example with different fonts and paragraph leading](assets/max-lines-styles.png)
+![Framefit example with different fonts and paragraph leading](assets/max-lines-styles.webp)
 
 ## Features
 
