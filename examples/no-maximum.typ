@@ -1,7 +1,7 @@
 #import "../lib.typ": framefit
 #import "_helpers.typ": settings
 
-#set page(width: 140mm, height: 80mm, margin: 14mm)
+#set page(width: 140mm, height: 105mm, margin: 14mm)
 #set text(font: "Libertinus Serif", size: 14pt)
 
 = No configured maximum

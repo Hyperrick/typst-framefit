@@ -9,4 +9,4 @@ repository = "https://github.com/Hyperrick/typst-framefit"
 keywords = ["framefit", "text-fit", "frame", "layout"]
 categories = ["layout", "text", "utility"]
 compiler = "0.14.2"
-exclude = ["tests/**", "examples/*.pdf", "examples/*.png", "examples/*.svg"]
+exclude = ["tests/**", "assets/*.png", "examples/*.pdf", "examples/*.png", "examples/*.svg"]

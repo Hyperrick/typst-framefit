@@ -10,6 +10,28 @@ The package measures the rendered text and chooses a font-size percentage that
 fits the available width and height. It can grow short text, shrink long text,
 cap the allowed growth, or keep text within a maximum number of lines.
 
+## Preview
+
+Finite maximum:
+
+![Framefit example with finite max percentage](assets/grows-to-max.png)
+
+No configured maximum:
+
+![Framefit example with max none](assets/no-maximum.png)
+
+Shrink to minimum:
+
+![Framefit example shrinking text to the minimum size](assets/shrinks-to-min.png)
+
+Maximum lines:
+
+![Framefit example limiting fitted text to three lines](assets/max-lines.png)
+
+Font and line spacing sensitivity:
+
+![Framefit example with different fonts and paragraph leading](assets/max-lines-styles.png)
+
 ## Features
 
 - Fit text to a fixed `width` and `height`.
@@ -205,11 +227,14 @@ top/bottom edges, and `par(leading:)`.
 
 The `examples/` folder contains rendered documents for the main cases:
 
-- `grows-to-max.typ`: finite maximum percentage.
-- `no-maximum.typ`: calculated maximum with `max: none`.
-- `shrinks-to-min.typ`: tight frame that reaches the minimum size.
-- `max-lines.typ`: line-count limiting.
-- `max-lines-styles.typ`: different fonts and paragraph leading.
+- [`grows-to-max.typ`](examples/grows-to-max.typ): finite maximum percentage.
+- [`no-maximum.typ`](examples/no-maximum.typ): calculated maximum with
+  `max: none`.
+- [`shrinks-to-min.typ`](examples/shrinks-to-min.typ): tight frame that reaches
+  the minimum size.
+- [`max-lines.typ`](examples/max-lines.typ): line-count limiting.
+- [`max-lines-styles.typ`](examples/max-lines-styles.typ): different fonts and
+  paragraph leading.
 - `demo.typ`: combined overview.
 
 Each example includes a visible "Settings used" block before each result.

@@ -3,3 +3,5 @@
 *.svg
 *.html
 .pkg-test.*
+!assets/
+!assets/*.png
